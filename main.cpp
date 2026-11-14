@@ -70,7 +70,8 @@ int main() {
             return 0;
         }
         if (moves == 9) {
-            break;
+            std::cout << "\nDraw!\n";
+            return 0;
         }
 
         player = (player == 'X') ? 'O' : 'X';
